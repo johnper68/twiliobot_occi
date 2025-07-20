@@ -1,0 +1,21 @@
+{
+  "name": "pedido-whatsapp-appsheet",
+  "version": "1.0.0",
+  "description": "App de pedidos por WhatsApp integrada con AppSheet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js"
+  },
+  "dependencies": {
+    "@bot-whatsapp/bot": "^0.1.38",
+    "@bot-whatsapp/database": "^0.1.38",
+    "@bot-whatsapp/provider-twilio": "^0.1.1-alpha.0",
+    "twilio": "^4.15.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
