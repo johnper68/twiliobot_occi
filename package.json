@@ -1,6 +1,7 @@
 {
   "name": "pedido-whatsapp-appsheet",
   "version": "1.0.0",
+  "type": "module",
   "description": "App de pedidos por WhatsApp integrada con AppSheet",
   "main": "index.js",
   "scripts": {
